@@ -1,0 +1,32 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.container div.col-5 {
+    text-align: right !important;
+}
+
+.container div {
+    margin-top: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+.col-sm-7 input {
+    width: 100%;
+}
+
+.input-group .row,  .input-group div{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#submit {
+    text-align: center;
+}
+
+#submit button {
+    min-width: 160px;
+}

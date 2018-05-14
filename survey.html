@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p id="error"></p>
+                <div class="row">
+                    <div class="col-5 d-none d-sm-block">
+                        <p><b>Your name:</b></p>
+                    </div>
+                    <div class="col-12 col-sm-7">
+                        <input type="text" placeholder="Please leave your name here" name="name">
+                    </div>
+                </div>
+            </div>
+            <div id="title" class="col-12">
+                <h5><b>What are your 3 major life goals?</b></h5>
+            </div>
+            <div class="input-group">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-5 d-none d-sm-block">
+                            <p><b>Goal #1:</b></p>
+                        </div>
+                        <div class="col-12 col-sm-7">
+                            <input type="text" placeholder="Put your goal #1 here" name="goal1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-5 d-none d-sm-block">
+                            <p><b>Goal #2:</b></p>
+                        </div>
+                        <div class="col-12 col-sm-7">
+                            <input type="text" placeholder="Put your goal #2 here" name="goal2">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-5 d-none d-sm-block">
+                            <p><b>Goal #3:</b></p>
+                        </div>
+                        <div class="col-12 col-sm-7">
+                            <input type="text" placeholder="Put your goal #3 here" name="goal3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="submit" class="col-12">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="survey.js"></script>
+</body>
+</html>
