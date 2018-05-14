@@ -18,9 +18,18 @@ div.container div.col-5 {
     width: 100%;
 }
 
-.input-group .row,  .input-group div{
-    margin-top: 0;
-    margin-bottom: 0;
+@media only screen and (min-width: 576px) {
+    .input-group .row,  .input-group div {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .input-group .row,  .input-group div {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
 }
 
 #submit {
